@@ -1,18 +1,68 @@
-{\rtf1\ansi\ansicpg936\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh14760\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css"> <!-- 引入 CSS 文件 -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 150px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
 
-\f0\fs24 \cf0 <!DOCTYPE html>\
-<html lang="en">\
-<head>\
-    <meta charset="UTF-8">\
-    <title>My GitHub Page</title>\
-</head>\
-<body>\
-    <h1>Welcome to My GitHub Page</h1>\
-</body>\
-</html>\
-}
+    <div class="container">
+        <header>
+            <h1>Welcome to My Website</h1>
+        </header>
+
+        <section>
+         <img src="myphoto.jpg" alt="My Photo">
+         <h2>About Me</h2>
+         <p>Hello everyone! I’m <strong>Freya</strong>, a global superstar in film, music, fashion, and business!</p>
+         <p>From a rising talent to an international icon, I’ve won numerous awards with my groundbreaking performances and chart-topping hits.</p>
+         <p>Beyond entertainment, I’ve built a fashion empire and invested in tech and creative industries, shaping new trends.</p>
+         <p>Contact me at freya@example.com</p>
+        </section>
+
+
+        <section>
+            <h2>New HTML Element</h2>
+            <details>
+                <summary>Click to reveal more info</summary>
+                <p>This is an example of a <strong>&lt;details&gt;</strong> element that I haven't used before!</p>
+            </details>
+        </section>
+
+        <section>
+            <h2>Weather Information</h2>
+            <p id="weather">Loading...</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 My Website</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
