@@ -4,3 +4,9 @@ async function fetchWeather() {
     document.getElementById('weather').innerText = `Temperature: ${data.current.temp_c}°C`;
 }
 fetchWeather();
+
+document.addEventListener("mousemove", (event) => {
+    let x = event.clientX / window.innerWidth;
+    let y = event.clientY / window.innerHeight;
+    document.body.style.backgroundColor = `rgb(${x * 255}, ${y * 255}, 150)`;
+});
